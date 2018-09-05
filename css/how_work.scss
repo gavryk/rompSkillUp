@@ -1,0 +1,84 @@
+#how_work {
+	padding-bottom: 70px;
+}
+
+.how_work-title {
+	text-align: center;
+	padding: 70px 0;
+	h2 {
+		font-size: 38px;
+		font-weight: bold;
+		color: #4c4c4c;
+	}
+	p {
+		font-size: 14px;
+		margin-top: 30px;
+		color: #7e889b;
+	}
+}
+
+.how_work-tasks {
+	.task01,
+	.task02,
+	.task03,
+	.task04,
+	.task05,
+	.task06 {
+		align-items: center;
+		.task-number {
+			display: flex;
+    		justify-content: space-around;
+    		align-items: center;
+			color: $bg-btn;
+			h2 {
+				font-size: 72px;
+				font-weight: bold;
+			}
+			span {
+				font-size: 24px;
+				font-weight: 600;
+			}
+		}
+		p {
+			font-size: 14px;
+			margin-left: 65px;
+			color: #7e889b;
+			line-height: 1.4em;
+		}
+	}
+	.task02,
+	.task04,
+	.task06 {
+		margin-top: -4px;
+		margin-left: 8px;
+		.task-number {
+			color: $blue;
+		}
+		p {
+			margin-right: 65px;
+			margin-left: 0;
+		}
+	}
+	.task03,
+	.task05 {
+		margin-top: -4px;
+		.task-number {
+			color: $green;
+		}
+	}
+	.task04 {
+		.task-number {
+			color: $yellow;
+		}
+	}
+	.task05 {
+		.task-number {
+			color: $purple;
+		}
+	}
+	.task06 {
+		.task-number {
+			color: $red;
+		}
+	}
+}

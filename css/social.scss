@@ -1,0 +1,22 @@
+#social {
+  padding: 40px 0;
+  background: $blue;
+  .soc {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px double #fff;
+    border-radius: 50%;
+    &:hover {
+      border: 5px double #222;
+      i {
+        color: #222;
+      }
+    }
+    i {
+      color: #fff;
+    }
+  }
+}

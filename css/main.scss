@@ -1,0 +1,23 @@
+@import "variable";
+@import "fonts";
+@import "header";
+@import "mobile";
+@import "item";
+@import "our_work";
+@import "how_work";
+@import "portfolio";
+@import "our_price";
+@import "forma";
+@import "social";
+@import "footer";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+

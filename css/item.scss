@@ -1,0 +1,36 @@
+.item-title {
+	text-align: center;
+	padding-top: 70px;
+	color: #78797a;
+	font-size: 18px;
+	.blue {
+		color: #3c9ad8;
+	}
+	.red {
+		color: #fe476a;
+	}
+	.line {
+		color: #bababb;
+		text-decoration: line-through;
+	}
+}
+
+.items {
+	margin-top: 40px;
+	.item {
+		text-align: center;
+		img {
+			margin-bottom: 25px;
+		}
+		h3 {
+			font-size: 22px;
+			text-align: center;
+			color: #252525;
+		}
+	}
+}
+
+#item-block {
+	background: #f1f2f4;
+	padding-bottom: 70px;
+}
